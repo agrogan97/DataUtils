@@ -14,7 +14,9 @@ Data
 
 Data can be found in the associated OSF storage at https://osf.io/69hka/
 
-File Structure:
+Data stored on OSF at: 
+
+File Structure: https://osf.io/69hka/
 ---
 
 ```
