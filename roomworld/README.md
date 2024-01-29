@@ -16,14 +16,14 @@ rise_year4_clean
 | userId    | str  | Hashed user ID received from RISE. Long alphanumeric string. One participant may have duplicate userIds |
 | rawData | dict | All raw data from the gameplay. Used for down the pipeline for extracting rounds and responses |
 | sdata | dict | Data specifically related to gameplay. See round-level data. |
-| edata | ?? | ?? |
-| parameters | ?? | ?? |
+| edata | Obj | Not regularly required |
+| parameters | Obj | Not regularly required |
 | totalAttempts | int | How many overall attempt the user had, on this server id. This means restarts by closing and reopening the browser, and differs from duplicates |
 | completed | boolean | Whether or not the user completed the game |
 | lastCompletedRound| int | The round index the player reached before ending the game |
 | lastTrialGame | int | How many trial_games they've seen |
-| finalRooms | ?? | ?? |
-| urlParameters | ?? | ?? |
+| finalRooms | ?? | The final room each participant reached |
+| urlParameters | Obj  | Not regularly required |
 | timestamps | list, ints | The timestamps (epoch times) of the start times of specific attempts made with this server ID. Doesn't include RISE-side duplicates |
 | timeCreated | str | Datetime of when the object was created in the database, in UCT. |
 | lastModified | str | Datetime of when the object was last modified in the database, in ICT. |
