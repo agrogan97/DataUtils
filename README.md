@@ -1,10 +1,18 @@
 # DataUtils
 
 A collection of utility files for working with the games data. See contents for file descriptions.
+```
+-----------------------------------
+Author: Alex Grogan
+Contact: alex.grogan@psy.ox.ac.uk
+Date: 29/01/2024
+-----------------------------------
+```
 
-Contents:
+Data
 ---
-- parseQS24.ipynb : Structure the raw data from JSON into CSV, in the format expected by RISE for Snowflake
+
+Data can be found in the associated OSF storage at https://osf.io/69hka/
 
 File Structure:
 ---
