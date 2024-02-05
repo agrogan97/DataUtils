@@ -1,0 +1,4 @@
+data/
+paths.txt
+*.csv
+*.json
